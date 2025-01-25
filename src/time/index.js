@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./index.css";
+import Brg from "../image/background1.jpg";
 import { useState, useEffect } from "react";
 
 function Time() {
@@ -55,7 +56,8 @@ function Time() {
 
 	//   if(isHappy) return <div class="box-slider">happy new year</div>;
 	return (
-		<div className='background'>
+		<div className='flex'>
+			<img src={Brg} alt='' style={{ width: "100%", height: "100%" }} />
 			<div className='wrapper'>
 				<h1>Thời gian đém ngược đến năm mới là</h1>
 				<div className='box-time'>

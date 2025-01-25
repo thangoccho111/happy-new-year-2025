@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+h1 {
+	font-family: "Water Brush", cursive;
+	font-size: 35px;
+}
+h2 {
+	font-family: "Water Brush", cursive;
+	font-size: 25px;
+}
+
+.background {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

@@ -51,6 +51,71 @@
 		filter: blur(0);
 	}
 }
+.buttonLeft {
+	position: absolute;
+	top: 70%;
+	left: 25%;
+	opacity: 0;
+	transform: translate(-50%, -50%) scale(0);
+	z-index: 1000;
+	transition: 0.5s;
+	cursor: pointer;
+	animation: buttonLeft 1s 4.2s forwards;
+	background: fixed;
+	width: 100px;
+	height: 40px;
+	border: 5px;
+	color: #fff;
+	font-family: "Anton", sans-serif;
+}
+
+@keyframes buttonLeft {
+	0% {
+		opacity: 0;
+		top: 70%;
+		left: 25%;
+		transform: translate(-50%, -50%) scale(0);
+	}
+	100% {
+		opacity: 1;
+		top: 70%;
+		left: 25%;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
+
+.buttonRight {
+	position: absolute;
+	font-family: "Anton", sans-serif;
+	top: 70%;
+	left: 75%;
+	opacity: 0;
+	transform: translate(-50%, -50%) scale(0);
+	background: fixed;
+	width: 100px;
+	height: 40px;
+	border: 5px;
+	color: #fff;
+	z-index: 1000;
+	transition: 0.5s;
+	cursor: pointer;
+	animation: buttonRight 1s 4.2s forwards;
+}
+
+@keyframes buttonRight {
+	0% {
+		opacity: 0;
+		top: 70%;
+		left: 75%;
+		transform: translate(-50%, -50%) scale(0);
+	}
+	100% {
+		opacity: 1;
+		top: 70%;
+		left: 75%;
+		transform: translate(-50%, -50%) scale(1);
+	}
+}
 .slider1 img {
 	width: 100%;
 }

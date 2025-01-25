@@ -4,8 +4,18 @@ import Rim from "../image/rim1.png";
 import Snake from "../image/z6254314613546_995fc4873c1cf1bba26ac398462a678a-removebg-preview.png";
 import Lanterns from "../image/lanterns.png";
 import PhaoHoa from "../image/phaohoa (22).gif";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 function Happy() {
+	const navigate = useNavigate();
+	const onPressLeft = () => {
+		navigate("/wish", { state: { name: 1 } });
+	};
+	const onPressRight = () => {
+		navigate("/wish", { state: { name: 2 } });
+	};
+
 	return (
 		<div className='background'>
 			<div className='box-slider'>
@@ -110,6 +120,12 @@ function Happy() {
 					</div>
 				</div>
 				<div className='slider'>
+					<button className='buttonLeft' onClick={onPressLeft}>
+						Xem lời chúc
+					</button>
+					<button className='buttonRight' onClick={onPressRight}>
+						Lì Xì
+					</button>
 					<div className='happynewyear2'>
 						<div className='textHappynewyear2'>
 							<div className='box-span2'>
