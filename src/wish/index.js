@@ -22,8 +22,19 @@ function Wish() {
 						Em chúc mừng năm mới gia đình anh/chị.
 					</h1>
 					<h2>
-						Em chúc anh/chị năm mới: Bầu trời sức khỏa, biển cả tình thường, đại dương tình
-						bạn,sự nghiệp rạng rỡ, gia đình hạnh phúc. Happy new year 2025
+						Em chúc anh/chị năm mới: 
+					</h2><h2>
+						 Bầu trời sức khỏa
+					</h2><h2>
+						Biển cả tình thường
+					</h2><h2>
+						 Đại dương tình bạn
+					</h2><h2>
+						Sự nghiệp rạng rỡ
+					</h2><h2>
+						Gia đình hạnh phúc
+					</h2><h2>
+						Happy new year 2025
 					</h2>
 				</div>
 			</div>
