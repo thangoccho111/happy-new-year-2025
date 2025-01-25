@@ -1,26 +1,16 @@
 import "./index.css";
 import Brg from "../image/background.jpg";
 import Bank from "../image/bank.jpg";
-// import { useState } from "react";
 import { useLocation } from "react-router-dom";
 
 function Wish() {
 	const location = useLocation();
 	const { name } = location.state || "";
-	// const [text, setText] = useState("");
 
 	if (name === 2) {
 		return (
 			<div className='background'>
 				<img src={Bank} alt='' style={{ width: "100%", height: "100%" }} />
-				{/* <div style={{ position: "absolute", padding: "20px" }}>
-					<input
-						type='text'
-						value={text}
-						onChange={(e) => setText(e.target.value)}
-					/>
-					<button onClick={(e) => onClick(e)}>Xong</button>
-				</div> */}
 			</div>
 		);
 	} else {

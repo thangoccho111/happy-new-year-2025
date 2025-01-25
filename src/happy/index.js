@@ -5,7 +5,6 @@ import Snake from "../image/z6254314613546_995fc4873c1cf1bba26ac398462a678a-remo
 import Lanterns from "../image/lanterns.png";
 import PhaoHoa from "../image/phaohoa (22).gif";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
 
 function Happy() {
 	const navigate = useNavigate();
