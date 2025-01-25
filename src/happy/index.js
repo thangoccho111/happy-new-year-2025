@@ -1,9 +1,13 @@
 import "./index.css";
 import Brg from "../image/bgr.jpg";
 import Rim from "../image/rim1.png";
-import Snake from "../image/z6254314613546_995fc4873c1cf1bba26ac398462a678a-removebg-preview.png";
+import Snake from "../image/Linhvat.png";
+import Phao from "../image/phaohoa (24).gif";
+import Lixi from "../image/thantai.gif";
+import Loichuc from "../image/loichuc.gif";
 import Lanterns from "../image/lanterns.png";
 import PhaoHoa from "../image/phaohoa (22).gif";
+import Pattern from "../image/pattern.png";
 import { useNavigate } from "react-router-dom";
 
 function Happy() {
@@ -73,7 +77,7 @@ function Happy() {
 				<div className='box-slider_img1'>
 					<div className='slider-img1'></div>
 					<div className='pattern'>
-						<img src='../image/pattern.png' alt='' />
+						<img src={Pattern} alt='' />
 					</div>
 				</div>
 				<div className='circle'>
@@ -85,13 +89,14 @@ function Happy() {
 							<img src={Lanterns} alt='' />
 						</div>
 					</div>
+					<img src={Phao} alt='' style={{ width: "100%" }} />
 					<div className='box-slider-img4'>
 						<div className='slider-img4'>
 							<img src={Lanterns} alt='' />
 						</div>
 					</div>
 					<div className='cat'>
-						<img src={Snake} alt='' />
+						<img src={Snake} alt='' style={{ width: "60%", height: "60%" }} />
 					</div>
 					<div className='box-number'>
 						<div className='number2023'>
@@ -120,9 +125,15 @@ function Happy() {
 				</div>
 				<div className='slider'>
 					<button className='buttonLeft' onClick={onPressLeft}>
+						<img
+							src={Loichuc}
+							alt=''
+							style={{ width: "100%", height: "220%" }}
+						/>
 						Xem lời chúc
 					</button>
 					<button className='buttonRight' onClick={onPressRight}>
+						<img src={Lixi} alt='' style={{ width: "100%", height: "220%" }} />
 						Lì Xì
 					</button>
 					<div className='happynewyear2'>

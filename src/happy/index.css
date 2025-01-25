@@ -838,8 +838,8 @@
 	left: 50%;
 	transform: translate(-50%, -50%);
 	content: "";
-	width: 150px;
-	height: 150px;
+	width: 350px;
+	height: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -1284,6 +1284,8 @@
 	transition: 0.5s;
 	cursor: pointer;
 	animation: scaleCat 1s 4.2s forwards;
+	display: flex;
+	justify-content: center;
 }
 @keyframes scaleCat {
 	0% {
@@ -2060,6 +2062,10 @@ h2 {
 @media screen and (max-width: 768px) {
 	.box-slider {
 		overflow: hidden;
+	}
+	.pattern {
+		width: 150px;
+		height: 150px;
 	}
 	.slider1 img {
 		width: 100%;
