@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./index.css";
-import Brg from "../image/background1.jpg";
+import Brg from "../image/background.gif";
 import { useState, useEffect } from "react";
 
 function Time() {
@@ -14,7 +14,7 @@ function Time() {
 	// co 2 cách render lại component or chuyển hướng
 
 	// render lại component
-	const [isHappy, setIsHappy] = useState(false);
+	// const [isHappy, setIsHappy] = useState(false);
 
 	// chuyển hướng đến trang happy
 	const route = useNavigate();
