@@ -7,7 +7,7 @@ import Wish from "./wish";
 function App() {
 	window.addEventListener("orientationchange", function () {
 		if (window.orientation === 90 || window.orientation === -90) {
-			alert("Vui lòng quay thiết bị về chế độ dọc để tiếp tục.");
+			alert("Vui lòng quay thiết bị chế độ dọc để tiếp tục.");
 			// Ẩn toàn bộ nội dung khi xoay ngang
 			document.body.style.display = "none";
 		} else {
