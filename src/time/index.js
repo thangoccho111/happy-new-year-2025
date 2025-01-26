@@ -59,7 +59,7 @@ function Time() {
 		<div className='flex'>
 			<img src={Brg} alt='' style={{ width: "100%", height: "100%" }} />
 			<div className='wrapper'>
-				<h1>Thời gian đém ngược đến năm mới là</h1>
+				<h1>Thời gian đếm ngược chuyển giao năm mới</h1>
 				<div className='box-time'>
 					<div className='time'>
 						<p>Ngày</p>
